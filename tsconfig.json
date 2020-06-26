@@ -1,0 +1,28 @@
+{
+  "compilerOptions": {
+    "diagnostics": true,
+    "esModuleInterop": true,
+    "allowSyntheticDefaultImports": true,
+    "forceConsistentCasingInFileNames": true,
+    "lib": ["es6", "dom", "es2019"],
+    "module": "commonjs",
+    "target": "esnext",
+    "moduleResolution": "node",
+    "noImplicitAny": false,
+    "noUnusedLocals": true,
+    "noUnusedParameters": true,
+    "outDir": "dist/",
+    "pretty": false,
+    "removeComments": true,
+    "strict": true,
+    "declaration": false
+  },
+  "exclude": [
+    "webpack.config.js",
+    "src/**/*.spec.*",
+    "node_modules",
+    "**/__tests__/*",
+    "**/__mocks__/*"
+  ],
+  "include": ["src", "typings"]
+}
